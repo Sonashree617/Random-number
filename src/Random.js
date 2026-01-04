@@ -9,8 +9,8 @@ const random=()=>{
     return(
         <div>
             <h1>Random Number</h1>
-            {(number===null?<p>No number generated</p>:
-            <p>{number}</p>)}
+            {(number===null?<h3>No number generated</h3>:
+            <h3>Generated number:{number}</h3>)}
             <button onClick={random}>Generate Random number</button>
         </div>
     )
